@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/register/',
+  base:'/Register/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
